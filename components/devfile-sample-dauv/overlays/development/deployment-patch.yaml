@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dauv
+  namespace: dfodor-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/dfodor-tenant/hypershift-test/devfile-sample-dauv@sha256:c956da0e4e3719330dc0270aa2e5819033f5097e037326217c68ae1848fdeda7
+        name: my-nodejs
+        resources: {}
+status: {}
