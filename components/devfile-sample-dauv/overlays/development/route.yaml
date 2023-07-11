@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-dauv
     app.kubernetes.io/part-of: hypershift-test
-  name: devfile-sample-dauvnlfz
+  name: devfile-sample-dauv8ccf
 spec:
   path: /
   port:
